@@ -1,0 +1,11 @@
+.links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
