@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import profile from '../assets/MyImage.png';
 import { TypeAnimation } from 'react-type-animation';
 
-const featuredSkills = ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Java', 'Tailwind CSS'];
+const featuredSkills = ['React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'MySQL','Java', 'Tailwind CSS'];
 
 const featuredProjects = [
   {

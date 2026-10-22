@@ -86,6 +86,13 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
 
       {/* Mobile Menu Toggle */}
+      <button
+        onClick={() => setDarkMode(!darkMode)}
+        aria-label="Toggle theme"
+        className="md:hidden ml-[150px] p-2 rounded-full border border-slate-400"
+      >
+        {darkMode ? '☀️' : '🌙'}
+      </button>
       <div className="hidden md:flex items-center gap-8">
         <button
           onClick={() => scrollToSection('contact')}
