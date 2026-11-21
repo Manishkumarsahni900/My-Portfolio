@@ -62,11 +62,11 @@ const Home = ({darkMode}) => {
             >
               <TypeAnimation
                 sequence={[
-                  'Full Stack Developer',
+                  'Web Developer',
                   2000,
                   'Java & DSA Enthusiast',
                   2000,
-                  'Web Developer',
+                  'MERN Stack Developer',
                   2000,
                 ]}
                 wrapper="span"

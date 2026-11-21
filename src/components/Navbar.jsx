@@ -9,8 +9,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     { name: 'About', targetId: 'about' },
     { name: 'Skills', targetId: 'skills' },
     { name: 'Projects', targetId: 'projects' },
-    { name: 'Contact', targetId: 'contact' },
     { name: 'Education', targetId: 'education' },
+    { name: 'Contact', targetId: 'contact' },
   ];
 
   // Smooth scroll handler
